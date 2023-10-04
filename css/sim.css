@@ -3,67 +3,6 @@
     text-decoration: none; border: 0;
     list-style: none; color: #000;
 }
-html,body {
-    /* scroll-behavior: smooth; */
-}
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed; z-index: 900; 
-    top: 0; left: 0; padding: 10px 30px;
-    background: #000; width: 100%;
-}
-header h1 {height: 50px; width: 100px; filter: invert(100%);}
-header h1 img {width: 100%;}
-header .nav {
-    display: flex; padding-right: 30px;
-}
-header .nav > li {
-    width: 100px; text-align: center;
-    position: relative;
-}
-header .nav > li > a {
-    font-size: 18px; font-weight: 700;
-    letter-spacing: -0.02em;
-    display: block; width: 100%;
-    color: #fff; 
-}
-header .nav > li > .sub {
-    width: 100%; position: absolute; 
-    background:  #000; padding-top: 10px;
-}
-header .nav > li > .sub li {
-    width: 100%;
-}
-header .nav > li > .sub li a {
-    display: block; width: 100%;
-    padding: 30px 0;
-    font-weight: 700;color: #fff;
-}
-/* aside ============================================================================= */
-aside:hover {
-    transform: translateY(-10px);
-}
-aside {
-    position: fixed;
-    z-index: 800;
-    top: 75%; left: 50px;
-    display: flex; flex-flow: column nowrap;
-    align-items: center;
-    transition: all 0.5s linear;
-}
-aside p {
-    font-size: 25px; font-weight: 700;
-    margin-bottom: -35px;
-}
-aside a {
-    display: block;
-    width: 120px; height: 20px;
-}
-aside a img {
-    width: 100%;
-}
 /* contents1=================================== */
 main {}
 main section {position: relative;}
