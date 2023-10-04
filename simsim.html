@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./css/jquery.fullPage.css"> -->
+    <link rel="stylesheet" href="./css/sim.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1><img src="./img/logo.jpg" alt=""></h1>
+        <ul class="nav">
+            <li>
+                <a href="#">홈</a>
+            </li>
+            <li><a href="#">관광</a>
+                <ul class="sub">
+                    <li><a href="#">지도</a></li>
+                    <li><a href="#">관광정보</a></li>
+                </ul>
+            </li>
+            <li><a href="#">자연</a>
+                <ul class="sub">
+                    <li><a href="#">포토</a></li>
+                    <li><a href="#">자연정보</a></li>
+                </ul>
+            </li>
+            <li><a href="#">자료실</a>
+                <ul class="sub">
+                    <li><a href="#">역사</a></li>
+                    <li><a href="#">지리적정보</a></li>
+                    <li><a href="#">독도의 힘</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+    <aside>
+        <p>Top</p>
+        <a href="#top">
+            <img src="./img/toplogo.png" alt="">
+        </a>
+    </aside>
+    <main id="wrap">
+        <section class="section contents1" id="top">
+            <div class="txt">
+                <span></span>
+                <p class="title">대한민국의 아름다운 영토 독도</p>
+                <p>
+                    독도는 역사적, 지리적, 국제법적으로 명백한 우리 고유의 영토입니다.
+                    우리 정부는 독도에 대한 확고한 영토주권을 행사하고있습니다.
+                    우리 정부는 독도에 대한 어떠한 도발에도 단호하고 엄중하게 대응하고 있으며,
+                    앞으로도 지속적으로 독도에 대한 우리의 주권을 수호해 나가겠습니다.
+                </p>
+            </div>
+        </section>
+        <section class="section contents2">
+            <div class="txt">
+                <span></span>
+                <p class="title">독도, 자연의 아름다움이 살아 숨쉬는 곳</p>
+                <p>
+                    독도는 울창한 소나무 숲과 푸른 바다, 그리고 다양한 해양 생물이 어우러진 자연의 보고입니다.
+                    울창한 소나무 숲을 거닐며 청량한 공기를 마시고, 푸른 바다에서 해수욕을 즐기며 아름다운 자연을 만끽할 수 있는 섬.
+                    대한민국의 영토이자, 세계에서 가장 아름다운 섬 중 하나인 독도의 자연을 보존하고, 
+                    대한민국의 자랑으로 지켜나가겠습니다.
+                </p>
+            </div>
+        </section>
+        <section class="section contents3">
+            <p class="left">
+            </p>
+            <div class="right">
+                <div class="menu">
+                    <p>독도를 알아주세요.</p>
+                    <ul>
+                        <li>
+                            <a href="#"><img src="./img/icon1.png" alt=""></a>
+                            <span>독도의 위치</span>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./img/icon2.png" alt=""></a>
+                            <span>형성과 지형,지질</span>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./img/icon3.png" alt=""></a>
+                            <span>독도의 지명</span>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./img/icon4.png" alt=""></a>
+                            <span>독도입도 안내</span>
+                        </li>
+                    </ul>
+                    <p class="map"></p>
+                </div>
+            </div>
+            <div class="txt">
+                <span></span>
+                <p class="title">대한민국의 독도</p>
+                <p>
+                    독도는 대한민국의 최동단에 위치한 섬으로, 울릉도에서 약 87.4km 떨어져 있습니다. 
+                    독도는 크게 '동도'와 '서도'로 이루어져 있으며, 총 면적은 0.186km²입니다.
+                    독도의 소나무 숲은 약 100여 년 된 울창한 숲으로, 독도의 상징적인 자연경관입니다. 
+                    독도의 바다는 수심이 깊고, 해양 생태계가 풍부하여 다양한 해양 생물이 서식하고 있습니다.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script/jquery.fullPage.js"></script> 
+    <script>
+        $('header .nav > li > .sub').hide()
+        $('header .nav').on('mouseover',function(){
+            $('header .nav > li > .sub').stop().slideDown()
+        })
+        $('header .nav').on('mouseout',function(){
+            $('header .nav > li > .sub').stop().slideUp()
+        })
+
+        $('#wrap').fullpage({
+            scrollBar:true,//scroll생성
+            scrollingSpeed:1000,//scroll내려갈떄의 속도
+            showActiveTooltip:true,
+        })
+    </script>
+</body>
+</html>

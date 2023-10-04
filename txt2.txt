@@ -1,0 +1,39 @@
+관광에서
+지도 -> 독도 지도
+	{ https://dokdo.mofa.go.kr/kor/introduce/location.jsp
+	{ 걍 구글 지도 하나 넣자
+
+관광정보 -> 입도 방법 / 시간 / 날씨
+	{ https://www.ulleung.go.kr/mdokdo/page.do?mnu_uid=925&
+	{ 날씨 현황을 볼수 있으면 좋겠다 / 배 시간 / 배를 어디서 타는지
+
+자연에서
+포토 -> 숲 / 바다 / 동식물
+	{ https://dokdo.mofa.go.kr/kor/pds/gallery_list07.jsp
+	{ 사진 나열
+자연정보 -> 보호동물 등 
+	{ https://dokdo.mofa.go.kr/kor/introduce/management.jsp
+	{ https://dokdo.mofa.go.kr/kor/introduce/nature.jsp
+	{ 사진쏙 동물 설명
+
+지료실에서
+역사 -> 독도의 역사 짤막하게
+	{ https://dokdo.mofa.go.kr/kor/pds/docu.jsp
+지리적정보 -> 지리적 특성 
+	{ https://dokdo.mofa.go.kr/kor/introduce/facility.jsp
+독도의 힘 -> 독도 내의 자원 설명 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8/21
