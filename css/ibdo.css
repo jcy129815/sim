@@ -1,0 +1,96 @@
+* {
+    margin: 0; padding: 0;
+    text-decoration: none; border: 0;
+    list-style: none; color: #000;
+    font-style: normal; font-weight: 400;
+    background: #F0F0F0;
+}
+main section {
+    position: relative; z-index: 800;
+}
+main {position: relative;}
+/* contents1=================================================================== */
+main #contents1 {
+    background: url(/img/page2_bg1.jpg) center no-repeat;
+    background-size: cover;
+    padding: 330px 0;
+}
+main #contents1 .bg1 {
+    background: rgba(24, 53, 91, 0.80);
+    padding: 30px 50px;
+    width: 600px; margin:0 auto;
+    text-align: center;
+}
+main #contents1 .bg1 p {
+    letter-spacing: -0.02em;
+    color: #fff;
+    background: none;
+}
+main #contents1 .bg1 p:first-child {
+    font-size: 2.5rem;
+    font-weight: 700; margin-bottom: 30px;
+}
+main #contents1 .bg1 p:last-child {
+    font-size: 1.5625rem;
+    font-weight: 700;
+}
+/* contents2=================================================================== */
+main #contents2 {
+    padding: 170px 0;
+    position: relative;
+}
+main #contents2 .info {
+    width: 1000px; text-align: center;
+    margin:0 auto;
+}
+main #contents2 .info p {
+    letter-spacing: -0.02em;
+}
+main #contents2 .info p:first-child {
+    font-size: 2.1875rem; font-weight: 700;
+    margin-bottom: 80px;
+}
+main #contents2 .info p:last-child {
+    font-size: 1.25rem; line-height: 35px;
+}
+/* bg=================================================================== */
+main .bg2 {
+    background: url(/img/page2_bg2.jpg) center no-repeat;
+    background-size:cover;
+    position: fixed; height: 100vh; width: 100%;
+    top: 0%; z-index: 700;
+}
+/* contents3=================================================================== */
+main #contents3 { margin-top: 200px; padding: 170px 0;}
+main #contents3 .sequence {
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+main #contents3 .sequence > p {
+    letter-spacing: -0.02em;
+}
+main #contents3 .sequence > p:nth-child(1) {
+    font-weight: 700; padding-bottom: 80px;
+    font-size: 2.1875rem;
+}
+main #contents3 .sequence > p:nth-child(2) {
+    font-size: 1.5626rem; padding-bottom: 80px;
+}
+main #contents3 .sequence > p:last-child {
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding-top: 80px;
+}
+main #contents3 .sequence ul {
+    display: flex; flex-flow: row nowrap;
+}
+main #contents3 .sequence ul li {
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+main #contents3 .sequence ul .icon_center {margin: 0 120px;}
+main #contents3 .sequence ul li p {letter-spacing: -0.02em; text-align: center;}
+main #contents3 .sequence ul li p:first-child {width: 80px; padding-bottom: 30px;}
+main #contents3 .sequence ul li p:first-child img {width: 100%;}
+main #contents3 .sequence ul li p:last-child {line-height: 20px;}
+main #contents3 .sequence ul li p:last-child em {font-size: 1.5rem;}
