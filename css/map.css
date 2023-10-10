@@ -1,0 +1,28 @@
+* {
+    margin: 0; padding: 0;
+    text-decoration: none; border: 0;
+    list-style: none; color: #000;
+    font-style: normal; font-weight: 400;
+}
+main {}
+main #contents1 {
+    background: url(/img/michael-benz-IgWNxx7paz4-unsplash.jpg) center no-repeat;
+    background-size: cover; width: 100%;
+    height: 650px;
+}
+main #contents1 .title {
+    background: rgba(0, 0, 0, 0.70);
+    width: 500px; text-align: center;
+    margin:0 auto; transform: translateY(140%);
+}
+main #contents1 .title span {
+    display: block; width: 100%; 
+    height: 20px; background: #E5C104;
+}
+main #contents1 .title p {
+    font-size: 2rem; font-weight: 700; 
+    letter-spacing: -0.02em; color: #fff;
+    padding: 60px 160px;
+}
+/* contents2==================================================== */
+main #contents2 {}
