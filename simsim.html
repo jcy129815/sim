@@ -6,13 +6,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="./css/jquery.fullPage.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/sim.css">
-    <title>Document</title>
+    <title>우리나라 독도 관광</title>
+    <style>
+        * {font-family: 'Noto Sans KR', sans-serif;}
+        /* local font */
+        @font-face {
+            font-family:'title';
+            src:url(./font/Binggrae2.woff);
+        }
+
+        #wrap .title {font-size:3rem; font-family:'title',serif !important;}
+
+    </style>
 </head>
 <body>
     <header>
-        <h1><img src="./img/logo.jpg" alt=""></h1>
+        <h1><img src="./img/h_logo.png" alt="독도"></h1>
         <ul class="nav">
             <li>
                 <a href="/simsim.html">홈</a>
@@ -46,15 +60,17 @@
     </aside>
     <main id="wrap">
         <section class="section contents1" id="top">
-            <div class="txt">
-                <span></span>
-                <p class="title">대한민국의 아름다운 영토 독도</p>
-                <p>
-                    독도는 역사적, 지리적, 국제법적으로 명백한 우리 고유의 영토입니다.
-                    우리 정부는 독도에 대한 확고한 영토주권을 행사하고있습니다.
-                    우리 정부는 독도에 대한 어떠한 도발에도 단호하고 엄중하게 대응하고 있으며,
-                    앞으로도 지속적으로 독도에 대한 우리의 주권을 수호해 나가겠습니다.
-                </p>
+            <div class="contents">
+                <div class="txt">
+                    <span></span>
+                    <p class="title">대한민국의 아름다운 영토 독도</p>
+                    <p>
+                        독도는 역사적, 지리적, 국제법적으로 명백한 우리 고유의 영토입니다.
+                        우리 정부는 독도에 대한 확고한 영토주권을 행사하고있습니다.
+                        우리 정부는 독도에 대한 어떠한 도발에도 단호하고 엄중하게 대응하고 있으며,
+                        앞으로도 지속적으로 독도에 대한 우리의 주권을 수호해 나가겠습니다.
+                    </p>
+                </div>
             </div>
         </section>
         <section class="section contents2">
