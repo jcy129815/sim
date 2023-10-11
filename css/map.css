@@ -4,25 +4,63 @@
     list-style: none; color: #000;
     font-style: normal; font-weight: 400;
 }
+@font-face {
+    font-family: 'KimjungchulMyungjo-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulMyungjo-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
 main {}
 main #contents1 {
-    background: url(/img/michael-benz-IgWNxx7paz4-unsplash.jpg) center no-repeat;
+    background: url(../img/michael-benz-IgWNxx7paz4-unsplash.jpg) center no-repeat;
     background-size: cover; width: 100%;
     height: 650px;
 }
 main #contents1 .title {
     background: rgba(0, 0, 0, 0.70);
-    width: 500px; text-align: center;
+    width: 550px; text-align: center;
     margin:0 auto; transform: translateY(140%);
 }
 main #contents1 .title span {
     display: block; width: 100%; 
-    height: 20px; background: #E5C104;
+    height: 5px; background: #E5C104;
 }
 main #contents1 .title p {
-    font-size: 2rem; font-weight: 700; 
+    font-size: 2.5625rem; font-weight: 700; 
     letter-spacing: -0.02em; color: #fff;
     padding: 60px 160px;
+    font-family: 'KimjungchulMyungjo-Bold';
 }
 /* contents2==================================================== */
-main #contents2 {}
+main #contents2 {padding: 50px 0 100px;}
+main #contents2 .links {
+    text-align: end; width: 70%;
+    margin:0 auto 50px;
+}
+main #contents2 .links a:last-child {font-weight: 700; font-size: 18px;}
+main #contents2 .info {
+    text-align: center;
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+main #contents2 .info .map {
+    width: 70%; margin-bottom: 80px;
+}
+main #contents2 .info .map iframe {width: 100%; height: 750px;}
+main #contents2 .info .txt1 {
+    font-size: 1.5625rem; width: 50%; 
+    margin-bottom: 80px; line-height: 45px;
+    letter-spacing: -0.02em;
+}
+main #contents2 .info .txt2 {
+    font-size: 1.25rem; margin-bottom: 30px;
+    letter-spacing: -0.02em;
+}
+main #contents2 .info a {
+    display: block; width: 100px;
+    font-size: 1.3rem; font-weight: 700;
+    color: #E5C104; background: #000;
+    border-radius: 100px; padding: 5px 20px;
+    margin-bottom: 80px;
+    letter-spacing: -0.02em;
+}

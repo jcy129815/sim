@@ -8,6 +8,7 @@ header {
     position: fixed; z-index: 900; 
     top: 0; left: 0; padding: 10px 30px;
     width: 100%;
+    background: rgba(0, 0, 0, 0.40);
 }
 header h1 {height: 50px; width: 100px; filter: invert(100%);}
 header h1 img {width: 100%;}
