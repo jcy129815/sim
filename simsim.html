@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/sim.css">
     <title>우리나라 독도 관광</title>
-    <style>
+    <!-- <style>
         * {font-family: 'Noto Sans KR', sans-serif;}
         /* local font */
         @font-face {
@@ -22,7 +22,7 @@
 
         #wrap .title {font-size:3rem; font-family:'title',serif !important;}
 
-    </style>
+    </style> -->
 </head>
 <body>
     <header>
@@ -52,17 +52,30 @@
             </li>
         </ul>
     </header>
-    <aside>
-        <p>Top</p>
-        <a href="#top">
-            <img src="./img/toplogo.png" alt="">
-        </a>
-    </aside>
+    <ul id="page1_aside">
+        <li>
+            <a href="https://www.ulleung.go.kr/mdokdo/index.do" target="_blank">
+                <img src="/img/logo3.png" alt="">
+                <span>독도 관리사무소</span>
+            </a>
+        </li>
+        <li>
+            <a href="https://dokdo.mofa.go.kr/kor/" target="_blank">
+                <img src="/img/logo1.png" alt="">
+                <span>독도 외교부</span>
+            </a>
+        </li>
+        <li>
+            <a href="https://dokdomuseum.go.kr/ko/main.do" target="_blank">
+                <img src="/img/logo2.png" alt="">
+                <span>독도 박물관</span>
+            </a>
+        </li>
+    </ul>
     <main id="wrap">
         <section class="section contents1" id="top">
-            <div class="contents">
+            <div class="box1">
                 <div class="txt">
-                    <span></span>
                     <p class="title">대한민국의 아름다운 영토 독도</p>
                     <p>
                         독도는 역사적, 지리적, 국제법적으로 명백한 우리 고유의 영토입니다.
@@ -74,53 +87,56 @@
             </div>
         </section>
         <section class="section contents2">
-            <div class="txt">
-                <span></span>
-                <p class="title">독도, 자연의 아름다움이 살아 숨쉬는 곳</p>
-                <p>
-                    독도는 울창한 소나무 숲과 푸른 바다, 그리고 다양한 해양 생물이 어우러진 자연의 보고입니다.
-                    울창한 소나무 숲을 거닐며 청량한 공기를 마시고, 푸른 바다에서 해수욕을 즐기며 아름다운 자연을 만끽할 수 있는 섬.
-                    대한민국의 영토이자, 세계에서 가장 아름다운 섬 중 하나인 독도의 자연을 보존하고, 
-                    대한민국의 자랑으로 지켜나가겠습니다.
-                </p>
+            <div class="box2">
+                <div class="txt">
+                    <p class="title">독도, 자연의 아름다움이 살아 숨쉬는 곳</p>
+                    <p>
+                        독도는 울창한 소나무 숲과 푸른 바다, 그리고 다양한 해양 생물이 어우러진 자연의 보고입니다.
+                        울창한 소나무 숲을 거닐며 청량한 공기를 마시고, 푸른 바다에서 해수욕을 즐기며 아름다운 자연을 만끽할 수 있는 섬.
+                        대한민국의 영토이자, 세계에서 가장 아름다운 섬 중 하나인 독도의 자연을 보존하고, 
+                        대한민국의 자랑으로 지켜나가겠습니다.
+                    </p>
+                </div>
             </div>
         </section>
         <section class="section contents3">
-            <p class="left">
-            </p>
-            <div class="right">
-                <div class="menu">
-                    <p>독도를 알아주세요.</p>
-                    <ul>
-                        <li>
-                            <a href="#"><img src="./img/icon1.png" alt=""></a>
-                            <span>독도의 위치</span>
-                        </li>
-                        <li>
-                            <a href="#"><img src="./img/icon2.png" alt=""></a>
-                            <span>형성과 지형,지질</span>
-                        </li>
-                        <li>
-                            <a href="#"><img src="./img/icon3.png" alt=""></a>
-                            <span>독도의 지명</span>
-                        </li>
-                        <li>
-                            <a href="#"><img src="./img/icon4.png" alt=""></a>
-                            <span>독도입도 안내</span>
-                        </li>
-                    </ul>
-                    <p class="map"></p>
-                </div>
-            </div>
-            <div class="txt">
-                <span></span>
-                <p class="title">대한민국의 독도</p>
-                <p>
-                    독도는 대한민국의 최동단에 위치한 섬으로, 울릉도에서 약 87.4km 떨어져 있습니다. 
-                    독도는 크게 '동도'와 '서도'로 이루어져 있으며, 총 면적은 0.186km²입니다.
-                    독도의 소나무 숲은 약 100여 년 된 울창한 숲으로, 독도의 상징적인 자연경관입니다. 
-                    독도의 바다는 수심이 깊고, 해양 생태계가 풍부하여 다양한 해양 생물이 서식하고 있습니다.
+            <div class="box3">
+                <p class="left">
                 </p>
+                <div class="right">
+                    <div class="menu">
+                        <p>독도를 알아주세요.</p>
+                        <ul>
+                            <li>
+                                <a href="#"><img src="./img/icon1.png" alt=""></a>
+                                <span>독도의 위치</span>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./img/icon2.png" alt=""></a>
+                                <span>형성과 지형,지질</span>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./img/icon3.png" alt=""></a>
+                                <span>독도의 지명</span>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./img/icon4.png" alt=""></a>
+                                <span>독도입도 안내</span>
+                            </li>
+                        </ul>
+                        <p class="map"></p>
+                    </div>
+                </div>
+                <div class="txt">
+                    <span></span>
+                    <p class="title">대한민국의 독도</p>
+                    <p>
+                        독도는 대한민국의 최동단에 위치한 섬으로, 울릉도에서 약 87.4km 떨어져 있습니다. 
+                        독도는 크게 '동도'와 '서도'로 이루어져 있으며, 총 면적은 0.186km²입니다.
+                        독도의 소나무 숲은 약 100여 년 된 울창한 숲으로, 독도의 상징적인 자연경관입니다. 
+                        독도의 바다는 수심이 깊고, 해양 생태계가 풍부하여 다양한 해양 생물이 서식하고 있습니다.
+                    </p>
+                </div>
             </div>
         </section>
     </main>

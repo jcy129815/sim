@@ -7,7 +7,7 @@ header {
     align-items: center;
     position: fixed; z-index: 900; 
     top: 0; left: 0; padding: 10px 30px;
-    background: #000; width: 100%;
+    width: 100%;
 }
 header h1 {height: 50px; width: 100px; filter: invert(100%);}
 header h1 img {width: 100%;}
@@ -26,7 +26,7 @@ header .nav > li > a {
 }
 header .nav > li > .sub {
     width: 100%; position: absolute; 
-    background:  #000; padding-top: 10px;
+    padding-top: 10px;
 }
 header .nav > li > .sub li {
     width: 100%;
@@ -36,26 +36,30 @@ header .nav > li > .sub li a {
     padding: 30px 0;
     font-weight: 700;color: #fff;
 }
-/* aside ============================================================================= */
-aside:hover {
-    transform: translateY(-10px);
-}
-aside {
+/* ul ============================================================================= */
+#page1_aside {
     position: fixed;
-    z-index: 800;
-    top: 75%; left: 50px;
-    display: flex; flex-flow: column nowrap;
+    top: 46%; z-index: 999;
+    left: 88%;
+}
+#page1_aside li {
+    display: flex; flex-flow: row nowrap;
+    margin-bottom: 25px; 
+    transition: all 0.8s ease;
+    transform: translateX(73%);
+}
+#page1_aside li:hover {
+    transform: translateX(10%);
+}
+#page1_aside li a {
+    display: flex; 
     align-items: center;
-    transition: all 0.5s linear;
 }
-aside p {
-    font-size: 25px; font-weight: 700;
-    margin-bottom: -35px;
+#page1_aside li a span {
+    font-weight: 700; color: #f7d219;
+    background: #000;
+    display: block; width: 150px;
+    margin-left: 25px; padding: 5px 0 5px 15px;
+    border-radius: 15px 0 0 15px;
 }
-aside a {
-    display: block;
-    width: 120px; height: 20px;
-}
-aside a img {
-    width: 100%;
-}
+#page1_aside li a img {width: 40px;}

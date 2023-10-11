@@ -2,34 +2,38 @@
     margin: 0; padding: 0;
     text-decoration: none; border: 0;
     list-style: none; color: #000;
+    
+}
+@font-face {
+    font-family: 'KimjungchulMyungjo-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulMyungjo-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
 }
 /* contents1=================================== */
 main {}
 main section {position: relative;}
-main section .txt {
-    position: absolute;
-}
+main section .txt {}
 main .contents1 {
     width: 100%; height: 100vh;
     background: url(../img/sim_contents1.jpg) top no-repeat;
     background-size: cover;
 }
-main .contents1 .txt {
-    width: 600px; background: rgba(0, 0, 0, 0.70);
-    top: 50%; left: 15%;
+main .contents1 .box1 {
+    margin:400px auto 0;
+    position: relative; left: -10%;
 }
-main .contents1 .txt span {
-    display: block; width: 100%;
-    height: 20px; background: #f7d219;
+main .contents1 .txt {
+    width: 600px; background: rgba(0, 0, 0, 0.40);
 }
 main .contents1 .txt .title {
-    font-size: 30px; font-weight: 700;
-    letter-spacing: -0.02em;
+    font-size: 40px; font-weight: 700;
     color: #fff; padding: 30px 30px 40px;
+    font-family: 'KimjungchulMyungjo-Bold';
 }
 main .contents1 .txt p {
-    font-size: 18px; letter-spacing: -0.02em;
-    line-height: 30px; padding: 0 30px 30px;
+    font-size: 20px; letter-spacing: -0.02em;
+    line-height: 35px; padding: 0 30px 30px;
     color: #fff;
 }
 /* contents2=================================== */
@@ -39,27 +43,24 @@ main .contents2 {
     background: url(../img/sim_contents2.jpg) top no-repeat;
     background-size: cover; 
 }
-main .contents2 .txt {
-    width: 600px; background: rgba(0, 0, 0, 0.70);
-    left: 55%; ; top: 30%;
+main .contents2 .box2 {
+    margin:300px auto 0; 
+    position: relative; right: -25%;
 }
-main .contents2 .txt span {
-    display: block; width: 100%;
-    height: 20px; background: #f7d219;
+main .contents2 .txt {
+    width: 600px; background: rgba(0, 0, 0, 0.40);
 }
 main .contents2 .txt .title {
     background: none;
-    font-size: 30px; font-weight: 700;
-    letter-spacing: -0.02em;
+    font-size: 40px; font-weight: 700;
     color: #fff; padding: 30px 30px 40px;
-    line-height: 40px;
+    line-height: 48px;
+    font-family: 'KimjungchulMyungjo-Bold';
 }
 main .contents2 .txt p {
-    background: url(../img/sim_contents2_2.jpg) center no-repeat;
-    background-size: cover;
-    font-size: 18px; letter-spacing: -0.02em;
-    font-weight: 700;
-    line-height: 30px; padding: 20px 40px 150px;
+    font-size: 20px; letter-spacing: -0.02em;
+    font-weight: 700; color: #fff;
+    line-height: 35px; padding: 20px 40px 150px;
     margin-left: 30px;
 }
 /* contents3=================================== */
@@ -67,63 +68,68 @@ main .contents2 .txt p {
 main .contents3 {
     height: 100vh; width: 100%;
 }
-main .contents3 .left {
+main .contents3 .box3 {
+    display: flex; flex-flow: row;
+    width: 100%;
+}
+main .contents3 .box3 .left {
     width: 50%; height: 100vh;
     background: url(../img/sim_contents3.jpg) center no-repeat;
     background-size: cover;
 }
-main .contents3 .right {
+main .contents3 .box3 .right {
     background: #414465;
     width: 50%;
 }
-main .contents3 .right .menu {
+main .contents3 .box3 .right .menu {
     text-align: center;
 }
-main .contents3 .right .menu p:first-child {
+main .contents3 .box3 .right .menu p:first-child {
     font-size: 30px; font-weight: 700; letter-spacing: -0.02em;
     color: #fff; margin:100px 0 50px; 
 }
-main .contents3 .right .menu ul {
+main .contents3 .box3 .right .menu ul {
     display: flex; justify-content: space-around;
     margin-bottom: 50px;
 }
-main .contents3 .right .menu ul li {
+main .contents3 .box3 .right .menu ul li {
     display: flex; flex-flow: column nowrap;
     align-items: center;
 }
-main .contents3 .right .menu ul li:hover a img {
+main .contents3 .box3 .right .menu ul li:hover a img {
     transform: scale(0.9);
 }
-main .contents3 .right .menu ul li a {
+main .contents3 .box3 .right .menu ul li a {
     display: block; width: 60px;
     padding-bottom: 20px; overflow: hidden;
 }
-main .contents3 .right .menu ul li a img {
+main .contents3 .box3 .right .menu ul li a img {
     width: 100%; transition: all 0.3s linear;
 }
-main .contents3 .right .menu ul li span {
+main .contents3 .box3 .right .menu ul li span {
     font-style: 1.5rem; font-weight: 700; letter-spacing: -0.02em;
     color: #fff;
 }
-main .contents3 .right .menu p:last-child {
+main .contents3 .box3 .right .menu p:last-child {
     background: url(../img/sim_contents3_map.jpg) center no-repeat;
     background-size: cover; height: 545px; width: 100%;
 }
-main .contents3 .txt {
-    width: 600px; background: rgba(0, 0, 0, 0.70);
-    top: 55%; left: 50%; transform: translateX(-50%);
+main .contents3 .box3 .txt {
+    width: 600px; background: rgba(0, 0, 0, 0.60);
+    position: absolute; top: 30%; left: 50%;
+    transform: translate(-50%, 50%)
 }
-main .contents3 .txt span {
+main .contents3 .box3 .txt span {
     display: block; width: 100%;
     height: 20px; background: #f7d219;
 }
-main .contents3 .txt .title {
-    font-size: 30px; font-weight: 700;
-    letter-spacing: -0.02em;
+main .contents3 .box3 .txt .title {
+    font-size: 40px; font-weight: 700;
     color: #fff; padding: 30px 30px 40px;
+    font-family: 'KimjungchulMyungjo-Bold';
 }
-main .contents3 .txt p {
-    font-size: 18px; letter-spacing: -0.02em;
-    line-height: 30px; padding: 0 30px 30px;
+main .contents3 .box3 .txt p {
+    font-size: 20px; letter-spacing: -0.02em;
+    line-height: 35px; padding: 0 30px 30px;
     color: #fff;
 }
