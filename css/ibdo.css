@@ -31,7 +31,7 @@ main {position: relative;}
 }
 /* contents1=================================================================== */
 main #contents1 {
-    background: url(/img/page2_bg1.jpg) center no-repeat;
+    background: url(../img/page2_bg1.jpg) center no-repeat;
     background-size: cover;
     padding: 330px 0;
 }
@@ -76,7 +76,7 @@ main #contents2 .info p:last-child {
 }
 /* bg=================================================================== */
 main .bg2 {
-    background: url(/img/page2_bg2.jpg) center no-repeat;
+    background: url(../img/page2_bg2.jpg) center no-repeat;
     background-size:cover;
     position: fixed; height: 100vh; width: 100%;
     top: 0%; z-index: 700;
@@ -163,7 +163,7 @@ main #contents5 .ct5_top .left .left_txt p {
     line-height: 35px; background-color:transparent;
 }
 main #contents5 .ct5_top .bg3 { 
-    background: url(/img/page2_bg3.jpg) center no-repeat;
+    background: url(../img/page2_bg3.jpg) center no-repeat;
     width: 500px; height: 650px;
     background-size: cover; left: 60%; bottom: 27%;
     position: absolute; z-index: 800;
@@ -195,7 +195,7 @@ main #contents6 {
     background: #F0F0F0;
 }
 main #contents6 .bg4 {
-    background: url(/img/page2_bg4.jpg) center no-repeat;
+    background: url(../img/page2_bg4.jpg) center no-repeat;
     background-size: cover; width: 50%; height: 100vh;
     
 }
