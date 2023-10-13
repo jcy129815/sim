@@ -1,0 +1,70 @@
+main {}
+/* contents1======================================================= */
+main #contents1 {
+    background: url(../img/sim_contents3.jpg) center no-repeat;
+    background-size: cover;
+}
+main #contents1 .txt_box {
+    width: 450px; margin:0 auto;
+    text-align: center; padding: 360px 0;
+}
+main #contents1 .txt_box p {
+    color: #fff; letter-spacing: -0.02em;
+    font-weight: 700;
+    font-size: 1.5625rem;
+}
+main #contents1 .txt_box p:first-child {
+    font-size: 2.5rem; margin-bottom: 15px;
+}
+/* contents2======================================================= */
+main #contents2 {
+    padding: 100px 0;
+}
+main #contents2 .sage {
+    display: flex; flex-flow: row wrap;
+    justify-content: center;
+}
+main #contents2 .sage div {
+    display: flex; flex-flow: column nowrap;
+    align-items: center; margin-right: 80px;
+    padding-bottom: 150px;
+}
+main #contents2 .sage div .title {
+    font-size: 33px; font-weight: 700;
+    letter-spacing: -0.02em;
+}
+main #contents2 .sage div .img {
+    width: 450px; height: 440px;
+    border: 5px solid #464646;
+    margin: 30px 0 50px;
+}
+main #contents2 .sage div .info {
+    width: 600px; text-align: center;
+    line-height: 30px;
+}
+main #contents2 .sage .photo1 .img {
+    background: url(../img/photo/ge_1.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+main #contents2 .sage .photo2 { margin-right: 0;}
+main #contents2 .sage .photo2 .img {
+    background: url(../img/photo/ge_2.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+main #contents2 .sage .photo3 .img {
+    background: url(../img/photo/ge_3.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+main #contents2 .sage .photo4 { margin-right: 0;}
+main #contents2 .sage .photo4 .img {
+    background: url(../img/photo/ge_4.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+/* contents3======================================================= */
+main #contents3 {}
+/* contents4======================================================= */
+main #contents4 {}
