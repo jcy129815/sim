@@ -13,8 +13,8 @@ main #contents1 .txt_box {
 }
 main #contents1 .txt_box p {
     color: #fff; letter-spacing: -0.02em;
-    font-weight: 700;
-    font-size: 1.5625rem;
+    font-weight: 700; font-size: 1.5625rem;
+    font-family: 'KimjungchulMyungjo-Bold';
 }
 main #contents1 .txt_box p:first-child {
     font-size: 2.5rem; margin-bottom: 15px;
