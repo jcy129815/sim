@@ -41,7 +41,7 @@ header .nav > li > .sub li a {
 #page1_aside {
     position: fixed;
     top: 46%; z-index: 999;
-    left: 88%;
+    right: 0%;
 }
 #page1_aside li {
     display: flex; flex-flow: row nowrap;
