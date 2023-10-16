@@ -1,0 +1,129 @@
+main {
+    padding: 0 0 80px;
+}
+main #headers {
+    background: url(../img/mungso/list_7.jpg) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+main #headers .txt_box {
+    text-align: center;
+    padding:350px 0;
+}
+main #headers .txt_box h1 {
+    font-size: 40px; font-weight: 700;
+    letter-spacing: -0.02em; color: #fff;
+    margin-bottom: 30px;
+    font-family: 'KimjungchulMyungjo-Bold';
+}
+main #headers .txt_box p {    
+    font-size: 25px; font-weight: 700;
+    letter-spacing: -0.02em; color: #fff;
+    font-family: 'KimjungchulMyungjo-Bold';
+}
+/* ========================================= */
+main section {
+    padding: 80px 0;
+}
+main section .top {
+    display: flex; flex-flow: row nowrap;
+    align-items: center; width: 100%;
+    justify-content: center; margin-bottom: 60px;
+}
+main section .top p {
+    font-size: 40px; font-weight: 700;
+    letter-spacing: -0.02em;
+    font-family: 'KimjungchulMyungjo-Bold';
+}
+main section .top .line {
+    width: 60%; margin-left: 100px;
+    display: flex; flex-flow: column nowrap;
+}
+main section .top .line span {
+    display: inline-block; width: 100%; margin-bottom: 5px;
+    height: 3px; background: #FFDD28;
+}
+main section .top .line span:last-child {
+    margin-bottom: 0;
+}
+main section .btm {
+    display: flex; justify-content: center;
+}
+main section .btm .left {
+    display: flex; flex-flow: column nowrap;
+    align-items: center; text-align: center;
+}
+main #contents1 .btm .left .bg_list {
+    background: url(../img/mungso/list_1.jpg) center no-repeat;
+    background-size: cover;
+}
+main #contents2 .btm .left .bg_list {
+    background: url(../img/mungso/list_2.jpg) center no-repeat;
+    background-size: cover;
+}
+main #contents3 .btm .left .bg_list {
+    background: url(../img/mungso/list_3.jpg) center no-repeat;
+    background-size: cover;
+}
+main #contents4 .btm .left .bg_list {
+    background: url(../img/mungso/list_4.jpg) center no-repeat;
+    background-size: cover;
+}
+main #contents5 .btm .left .bg_list {
+    background: url(../img/mungso/list_5.jpg) center no-repeat;
+    background-size: cover;
+}
+main #contents6 .btm .left .bg_list {
+    background: url(../img/mungso/list_6.jpg) center no-repeat;
+    background-size: cover;
+}
+main #contents7 .btm .left .bg_list {
+    background: url(../img/mungso/list_7.jpg) center no-repeat;
+    background-size: cover;
+}
+main section .btm .left .bg_list {
+    width: 480px; height: 480px; 
+    border-radius: 400px; margin-bottom: 50px;
+    border: 5px solid #464646;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.60);
+
+}
+main section .btm .left p:last-child {
+    font-size: 20px; font-weight: 700;
+    letter-spacing: -0.02em; width: 300px;
+    line-height: 35px;
+}
+main section .btm .info {
+    width: 350px; letter-spacing: -0.02em;
+    line-height: 33px; padding: 60px 60px 0;
+    font-size: 18px;
+}
+main section .btm .right {}
+main section .btm .right p:first-child {
+    font-size: 20px; font-weight: 700;
+    letter-spacing: -0.02em; margin-bottom: 30px;
+}
+main section .btm .right ul {
+    margin-bottom: 30px;
+}
+main section .btm .right ul li {
+    margin-bottom: 20px;
+}
+main section .btm .right ul li:last-child {margin-bottom: 0;}
+main section .btm .right .map {width: 330px; height: 250px;}
+main section .btm .right .map iframe {width: 400px; height: 300px;}
+/* ============================================= */
+main .page_num {
+    display: flex; justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+main .page_num a {
+    display: block;
+    width: 30px;height: 30px;
+}
+main .page_num a img {width: 100%;}
+main .page_num p {
+    padding: 0 30px;
+    font-size: 30px; font-weight: 700;
+}
