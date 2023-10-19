@@ -19,6 +19,7 @@ header .nav {
 }
 header .nav li {
     text-align: center;
+    margin-right: 10px;
 }
 header .nav li a {
     font-size: 26px; font-weight: 700;
@@ -31,7 +32,7 @@ header .nav li a:hover {
 }
 header .sub_bg {
     position: absolute; right: 0;
-    width: 600px;
+    width: 500px;
     top: 0; height: 100vh;
     padding: 300px 0 0;
     z-index: 840;
